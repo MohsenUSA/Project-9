@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="projects">
+        <div class="project-card">
+            <img src="https://placehold.co/300x300" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Sample text for Project 1.</p>
+            <a href="#" class="learn-more" onclick="openModal('Project 1')">Learn More</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://placehold.co/300x300" alt="Project 2">
+            <h2>Project 2</h2>
+            <p>Sample text for Project 2.</p>
+            <a href="#" class="learn-more" onclick="openModal('Project 2')">Learn More</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://placehold.co/300x300" alt="Project 3">
+            <h2>Project 3</h2>
+            <p>Sample text for Project 3.</p>
+            <a href="#" class="learn-more" onclick="openModal('Project 3')">Learn More</a>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>This is a modal created using JS.</p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
